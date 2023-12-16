@@ -4,7 +4,8 @@ name: demo
 displayName: demo
 configurations:
 - description: Exported plugins
-  #includePlugins:
+  includePlugins:
+   prometheus: {version: '2.1.1'}
    # jira-steps:
    #    version: 1.5.5
 
