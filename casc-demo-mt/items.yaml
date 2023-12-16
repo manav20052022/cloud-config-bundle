@@ -1,0 +1,16 @@
+removeStrategy:
+  items: "none"
+  rbac: "sync"
+
+items:
+  - kind: "folder"
+    name: "admin"
+    displayName: "admin jobs"
+    description: "administrative jobs"
+
+
+  - kind: folder
+    name: jobs
+    description: ''
+    displayName: jobs
+

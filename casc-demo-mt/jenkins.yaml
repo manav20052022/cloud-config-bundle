@@ -1,0 +1,35 @@
+jenkins:
+  agentProtocols:
+  - "Diagnostic-Ping"
+  - "JNLP4-connect"
+  - "OperationsCenter2"
+  - "Ping"
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+  systemMessage: "CloudBees CI demo of configuration bundles: Cloned"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+  clouds:
+  - "operationsCenterAgentProvisioningService"
+beekeeper:
+  enabled: true
+  securityWarnings:
+    enabledForCore: true
+    enabledForPlugins: true
+  upgrades:
+    autoDowngradePlugins: false
+    autoUpgradePlugins: false
+notificationConfiguration:
+  enabled: true
+  router: "operationsCenter"
+unclassified:
+  hibernationConfiguration:
+    activities:
+    - "build"
+    - "web"
+    enabled: false
+    gracePeriod: 600
+  pollSCM:
+    pollingThreadCount: 10
+
