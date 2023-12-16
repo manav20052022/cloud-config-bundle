@@ -13,4 +13,7 @@ items:
     name: jobs
     description: ''
     displayName: jobs
+    name: adminjobs
+    description: ''
+    displayName: Cluster_jobs
 
