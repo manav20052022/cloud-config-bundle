@@ -4,7 +4,7 @@ name: demo
 displayName: demo
 configurations:
 - description: Exported plugins
-  includePlugins:
-    jira-steps:
-      version: 1.5.5
+  #includePlugins:
+   # jira-steps:
+   #    version: 1.5.5
 
