@@ -9,8 +9,8 @@ configurations:
       version: 1.7.8
     emailext-template:
       version: '1.5'
-    jersey2-api:
-      version: 2.39.1-1
+    # jersey2-api:
+    # version: 2.39.1-1
     jira:
       version: '3.9'
     log-parser:
