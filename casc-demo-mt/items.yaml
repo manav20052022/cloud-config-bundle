@@ -16,4 +16,7 @@ items:
     name: adminjobs
     description: ''
     displayName: Cluster_jobs
+    name: Demojobs
+    description: ''
+    displayName: Cluster_Demo_jobs
 
